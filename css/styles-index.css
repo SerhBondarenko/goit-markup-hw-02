@@ -1,0 +1,89 @@
+/*Стили для index.html*/
+:root {
+  --primary-text-color: #757575;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+/*Логотип*/
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: #000000;
+}
+.logo-white {
+  color: #ffffff;
+}
+/*Навигация по сайту*/
+.list {
+  list-style: none;
+}
+
+.site-nav a {
+  color: #212121;
+}
+.contact {
+  color: var(--primary-text-color);
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.link.current {
+  color: #2196f3;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+}
+
+/*Секция-герой*/
+
+.hero {
+  color: #ffffff;
+}
+/*Главная кнопка*/
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/*Наши ценности*/
+
+.values {
+  color: #212121;
+}
+.values-description {
+  color: var(--primary-text-color);
+}
+/*Чем мы занимаемся*/
+
+.section-title {
+  color: #212121;
+}
+
+/*Наша команда*/
+.team {
+  color: #212121;
+}
+.profession {
+  color: var(--primary-text-color);
+}
+/*Футер*/
+
+/*Стили для portfolio.html*/
+
+.radio-button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.radio-button:hover,
+.radio-button:focus {
+  color: #2196f3;
+}
