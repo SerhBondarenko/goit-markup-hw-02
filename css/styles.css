@@ -1,11 +1,15 @@
 /*Стили для index.html*/
+
 :root {
-  --primary-text-color: #757575;
+  --primary-text-color: #757575; /*цвет основного текста*/
+  --title-text-color: #212121; /*вторичный цвет заголовка*/
+  --accent-color: #2196f3; /*акцент*/
+  --white-color: #ffffff; /*белый цвет*/
 }
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
 }
 /*Логотип*/
@@ -18,13 +22,13 @@ body {
 }
 
 .logo-blue {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-black {
   color: #000000;
 }
 .logo-white {
-  color: #ffffff;
+  color: var(--white-color);
 }
 /*Навигация по сайту*/
 
@@ -33,7 +37,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .list {
@@ -41,7 +45,7 @@ body {
 }
 
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
   text-decoration: none;
 }
 .contact {
@@ -55,15 +59,15 @@ body {
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contact:hover,
 .contact:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*Секция-герой*/
@@ -75,8 +79,9 @@ body {
   font-size: 44px;
   line-height: 1.37;
   text-align: center;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 /*Главная кнопка*/
 
@@ -86,8 +91,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-family: inherit;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /*Наши ценности*/
@@ -96,8 +101,9 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .values-description {
   font-weight: normal;
@@ -114,7 +120,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /*Наша команда*/
@@ -128,7 +134,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .profession {
@@ -160,7 +166,7 @@ address a {
 }
 .contact-info:hover,
 .contact-info:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .location {
@@ -168,7 +174,7 @@ address a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 /*/////////////////////////////////////////////*/
 
@@ -176,14 +182,21 @@ address a {
 
 .cursor {
   cursor: pointer;
-  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
   background-color: #f5f4fa;
 }
 
 .cursor:hover,
 .cursor:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 .project {
@@ -192,7 +205,7 @@ address a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .project-title {
   font-style: normal;
@@ -200,7 +213,7 @@ address a {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
